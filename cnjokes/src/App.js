@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
 
-import RandomJoke from './RandomJoke';
+import RandomJoke from "./RandomJoke";
 
 class App extends Component {
   render() {
@@ -9,7 +9,6 @@ class App extends Component {
       <div className="App">
         <RandomJoke />
       </div>
-
     );
   }
 }
